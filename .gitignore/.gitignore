@@ -1,0 +1,22 @@
+# Local .terraform working directory
+.terraform/
+
+# Terraform state files (contain sensitive data)
+terraform.tfstate
+terraform.tfstate.backup
+
+# Terraform variable definitions (can contain secrets)
+terraform.tfvars
+
+# Terraform lock file (only useful for dependency pinning in teams)
+.terraform.lock.hcl
+
+# Terraform plan output
+*.tfplan
+
+# VS Code workspace settings
+.vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
